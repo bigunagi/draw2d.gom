@@ -1,4 +1,7 @@
-package layout
+// Copyright 2012 The draw2d Authors. All rights reserved.
+// created: 28/05/2012 by Laurent Le Goff
+
+package gom
 
 type Fifo struct {
 	nodes []*Node

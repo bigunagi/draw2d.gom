@@ -1,4 +1,7 @@
-package layout
+// Copyright 2012 The draw2d Authors. All rights reserved.
+// created: 28/05/2012 by Laurent Le Goff
+
+package gom
 
 import ()
 
@@ -7,7 +10,7 @@ import ()
 // see Encoding general trees as binary trees in http://en.wikipedia.org/wiki/Binary_tree
 // Each node have a reference to an Element
 type Node struct {
-	element  	Element
+	element     Element
 	parent      *Node
 	firstChild  *Node
 	nextSibling *Node
